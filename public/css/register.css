@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+form {
+    text-align: center;
+}
+section {
+    margin-top: 20px;
+    margin-bottom: 10em;
+    margin: 2em;
+    padding: 2em;
+    background-color: rgba (255,255,255,0.7);
+    border-radius: 10px;
+    padding-top: 1.5em;
+    text-align: center;
+}
+label {
+    width: 100%;
+}
+main input { 
+    width: 100%;
+}
+button {
+    width: 100%;
+}
+.label-userprofile {
+    width: 10%;
+}
+.container-name-lastname input , .container-username input, .container-birthdate input, 
+.container-password input, .container-repeat-password input {
+    background-color: #f8f5f2;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    font-size: 15px;
+    min-height: 40px;
+    width: 90%;
+    font-weight: 100;
+    text-align: center;
+}
+
+.container-name-lastname {
+    padding-top: 10px;
+}
+form div {
+    margin-bottom: 20px;
+}
+.input-userprofile {
+    width: 15%;
+}
+#username {
+    text-align: center;
+}
+#name-lastname {
+    text-align: center;
+}
+#birthdate {
+    text-align: center;
+    padding-left: 40px
+}
+#electro, #moda, #hogar, #jugueteria, #vida-sana {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.electro, .moda, .hogar, .jugueteria, .vida-sana {
+    position: absolute;
+    right: 25%;
+}
+
+.label-categories {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-categories {
+    width: 100%;
+    text-align: center;
+}
+
+.onlyinputs-categories {
+    text-align: left;
+}
+button { 
+    background-color: #EAC926;
+    cursor:  pointer;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 50%;
+}

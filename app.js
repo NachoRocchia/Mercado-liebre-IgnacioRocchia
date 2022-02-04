@@ -16,6 +16,6 @@ app.get ('/crea-tu-cuenta', (req,res) => {
 
 app.use(express.static('public'));
 
-app.listen(3000, ()=>{
-    console.log('Servidor funcionando');
+app.listen(process.env.PORT || 3000 , ()=>{
+    console.log('Servidor funcionando en el puerto 3000');
 });
